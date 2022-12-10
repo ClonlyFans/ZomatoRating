@@ -12,3 +12,9 @@ Before we run the project, make sure that you are having MongoDB in your local s
 ```bash
 conda create -n restaurant python=3.8.0 -y
 ```
+### Step 2 Install setup.py
+
+''' bash
+     python install setup.py
+
+mongodb URL=mongodb+srv://Ishan:Coltraneone@cluster0.binsk16.mongodb.net/?retryWrites=true&w=majorityw=majority'

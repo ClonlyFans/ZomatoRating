@@ -1,4 +1,5 @@
-import sys
+
+import sys,os
 
 def error_message_details(error, error_details:sys):
     _,_,exc_tb =error_details.exc_info()  #tuple which returns type(e), e, e.traceback
@@ -24,3 +25,4 @@ class RatingsException(Exception):
 
         def __str__(self):       #use to print or display the content
             return self.error_message
+
